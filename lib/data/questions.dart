@@ -28,4 +28,31 @@ const questions = [
       'It defines the app\'s icon',
     ],
   ),
+  QuizQuestion(
+    'What is the main function of the Scaffold widget',
+    [
+      'It provides a framework for the app',
+      'It provides a framework for the UI',
+      'It provides a framework for the widgets',
+      'It provides a framework for the components',
+    ],
+  ),
+  QuizQuestion(
+    'What is the main function of the MaterialApp widget',
+    [
+      'It provides a framework for the app',
+      'It provides a framework for the UI',
+      'It provides a framework for the widgets',
+      'It provides a framework for the components',
+    ],
+  ),
+  QuizQuestion(
+    'What is the main function of the Container widget',
+    [
+      'It provides a framework for the UI',
+      'It provides a framework for the widgets',
+      'It provides a framework for the components',
+      'It provides a framework for the app',
+    ],
+  ),
 ];

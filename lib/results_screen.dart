@@ -40,6 +40,11 @@ class ResultsScreen extends StatelessWidget {
           children: [
             Text(
               'You answered $numCorrectQuestions out of $numTotalQuestions questions correctly!',
+              style: const TextStyle(
+                color: Colors.white,
+                fontSize: 20,
+                wordSpacing: 1.5,
+              ),
             ),
             const SizedBox(height: 30),
             QuestionsSummary(
@@ -48,7 +53,10 @@ class ResultsScreen extends StatelessWidget {
             const SizedBox(height: 30),
             TextButton(
               onPressed: () {},
-              child: const Text('Restart Quiz!'),
+              child: const Text(
+                'Restart Quiz!',
+                style: TextStyle(color: Colors.yellow, fontSize: 14),
+              ),
             )
           ],
         ),
